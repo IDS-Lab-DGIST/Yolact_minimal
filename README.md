@@ -3,17 +3,18 @@ Minimal PyTorch implementation of [Yolact:《YOLACT: Real-time Instance Segmenta
 The original project is [here](https://github.com/dbolya/yolact).  
 
 This implementation simplified the original code, preserved the main function and made the network easy to understand.  
-This implementation has not been updated to Yolact++.  
+This implementation has not been updated to Yolact++.
 
+updated to code by pdh using yolact on DGX-1 (pytorch 1.6.0 cuda 10.1)
+We will update the Dockerfile later.
 
 ### The network structure.  
 ![Example 0](readme_imgs/network.png)
 
 ## Environments  
-PyTorch >= 1.1  
+PyTorch == 1.6
 Python >= 3.6  
-onnxruntime-gpu == 1.6.0 for CUDA 10.2  
-TensorRT == 7.2.3.4  
+CUDA 10.1
 tensorboardX  
 Other common packages.  
 
